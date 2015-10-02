@@ -1,0 +1,9 @@
+name: 近山
+url: http://yiihare.in
+description: 
+
+permalink: /:year/:month/:day/:title/
+paginate: 4
+highlighter: pygments
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
