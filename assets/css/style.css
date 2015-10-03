@@ -109,13 +109,13 @@ h3 {
 
 /*** Structure ***/
 #page {
-	width: 650px;
+	width: 640px;
 	margin: 0 auto;
 	position: relative;
 }
 
 #header {
-	width: 650px;
+	width: 640px;
 	margin: 40px auto 40px auto;
 }
 #header h1 {
@@ -127,7 +127,7 @@ h3 {
 }
 
 #footer {
-	width: 650px;
+	width: 640px;
 	margin: 70px auto 20px auto;
 	padding-top: 3px;
 	font-size: 0.85em;
@@ -135,7 +135,7 @@ h3 {
 }
 
 #content {
-	width: 650px;
+	width: 640px;
 	margin: 0 auto;
 }
 
@@ -217,32 +217,6 @@ img.center {
 
 .postnavigation .right {
 	float: right;
-}
-
-
-
-/*** Media Queries ***/
-@media all and (max-width: 870px) {
-
-	#page, #header, #content, #footer {
-		width: inherit;
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-
-	#sidebar {
-		position: relative;
-		text-align: left;
-		width: 100%;
-		left: 0;
-		margin: 10px 10px 20px 10px;
-	}
-
-	#sidebar nav select.mnav {
-		display: block;
-		margin-bottom: 15px;
-	}
-
 }
 
 
